@@ -1,0 +1,28 @@
+{
+  "name": "@jinyiao/create-awesome-api",
+  "description": "create awesome api module cli",
+  "version": "1.0.0",
+  "bin": {
+    "create-awesome-api": "./index.js"
+  },
+  "author": "zhaopengcheng <710411486@qq.com>",
+  "license": "MIT",
+  "homepage": "http://192.168.11.199:9874/-/web/detail/@jinyiao/create-awesome-api",
+  "repository": {
+    "type": "git",
+    "url": "git+http://gitlab.jinbill.com/npm/create-awesome-api"
+  },
+  "keywords": [
+    "cli",
+    "api-cli"
+  ],
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "cli-spinner": "^0.2.10",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0"
+  },
+  "devDependencies": {}
+}
