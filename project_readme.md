@@ -1,4 +1,4 @@
-该项目由 [Create Awesome Api](http://192.168.11.199:9874/-/web/detail/@jinyiao/create-awesome-api)创建.
+该项目由 [Create Awesome Api](https://github.com/YSMJ1994/create-awesome-api)创建.
 
 ## 可用的脚本
 

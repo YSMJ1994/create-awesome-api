@@ -8,7 +8,7 @@ const owner = 'YSMJ1994';
 
 function downloadTemplate(dest) {
 	return new Promise((resolve, reject) => {
-		download(`direct:http://gitlab.jinbill.com/template-project-front/awesome-api-template.git`, dest, {}, function(
+		download(`github:${owner}/awesome-api-template`, dest, {}, function(
 			err
 		) {
 			if (err) {
