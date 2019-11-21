@@ -8,7 +8,7 @@ const question = require('./utils/question');
 const generator = require('./utils/generator');
 let config = {
 	name: '',
-	pkg: ''
+	pkg: 'yarn'
 };
 process.on("unhandledRejection", err => {
 	throw err;
