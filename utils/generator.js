@@ -21,7 +21,7 @@ function downloadTemplate(dest) {
 }
 
 async function copyReadme(targetDir) {
-	const src = path.resolve(__dirname, '../../project_readme.md');
+	const src = path.resolve(__dirname, '../project_readme.md');
 	const dest = path.resolve(targetDir, 'README.md');
 	await fs.copy(src, dest);
 }
